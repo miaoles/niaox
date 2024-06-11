@@ -1,0 +1,68 @@
+{
+	"[nix]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 6
+	},
+	"[odin]": {
+		"$schema": "https://raw.githubusercontent.com/DanielGavin/ols/master/misc/ols.schema.json",
+		"collections": [
+			{
+				"name": "core",
+				"path": "/nix/store/5ph6yvf808lsi6k6dc6r0vk0bs5z3qzh-odin-dev-2024-06/share/core"
+			},
+			{
+				"name": "vendor",
+				"path": "/nix/store/5ph6yvf808lsi6k6dc6r0vk0bs5z3qzh-odin-dev-2024-06/share/vendor"
+			}
+		],
+		"enable_document_symbols": true,
+		"enable_format": true,
+		"enable_hover": true,
+		"enable_inlay_hints": true,
+		"enable_semantic_tokens": true,
+		"enable_snippets": true
+	},
+	"[odinfmt]": {
+		"$schema": "https://raw.githubusercontent.com/DanielGavin/ols/master/misc/odinfmt.schema.json",
+		"character_width": 150,
+		"exp_multiline_composite_literals": true,
+		"indent_cases": true,
+		"newline_limit": 1,
+		"sort_imports": true,
+		"tabs": true,
+		"tabs_width": 6
+	},
+	"apc.activityBar": {
+		"itemMargin": 6,
+		"itemSize": 24,
+		"position": "top",
+		"size": 24
+	},
+	"chat.editor.fontSize": 12,
+	"debug.console.fontSize": 12,
+	"editor.detectIndentation": false,
+	"editor.fontFamily": "'Roboto Mono'",
+	"editor.fontSize": 12,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 6,
+	"files.trimTrailingWhitespace": true,
+	"markdown.preview.fontSize": 12,
+	"nix.enableLanguageServer": true,
+	"nix.formatterPath": "/nix/store/7g3b62zzswhagxrd17c6dm0mi2zks47z-nixpkgs-fmt-1.3.0/bin/nixpkgs-fmt",
+	"nix.serverPath": "/nix/store/gwvm7jsp565bxrndkxbg6affkvm7fmql-nixd-2.1.2/bin/nixd",
+	"nix.serverSettings": {
+		"nixd": {
+			"formatting": {
+				"command": "nixpkgs-fmt"
+			},
+			"options": {
+				"enable": true
+			}
+		}
+	},
+	"ols.server.path": "/nix/store/jvay4sqlsc8ymmpazq3c8a1pzk79bca4-ols/bin/ols",
+	"terminal.integrated.fontSize": 12,
+	"window.menuBarVisibility": "toggle",
+	"workbench.colorTheme": "Visual Studio Dark",
+	"workbench.statusBar.visible": false
+}
